@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Responsive Ecommerce WebPage</h2>
+        <ul class="ul-items">
+            <li><a href="#">New Collection</a></li>
+            <li><a href="New">About</a></li>
+            <li><a href="cartpage.html" target="_self">My-Cart </a><ion-icon name="cart" id="cart-logo"></ion-icon></li>
+        </ul>
+    </header>
+
+    <main>
+       <h1>Mens Clothing Collection's <span style="color: orange">2024</span></h1>
+       <div class="container">
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/brand t shirt.jpeg" alt="#">
+                    </div>
+                    <h3>Brand T-Shirt</h3>
+                    <p>Price : $8 Only</p>
+                    <div class="product-cart-btn" onclick="add('Brand-TShirt',8)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/full hand t shirt.jpeg" alt="#">
+                    </div>
+                    <h3>FullSize T-Shirt</h3>
+                    <p>Price : $7 Only</p>
+                    <div class="product-cart-btn" onclick="add('FullSizeT-Shirt',7)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/jean.jpeg" alt="#">
+                    </div>
+                    <h3>Puma Jeans</h3>
+                    <p>Price : $5.5 Only</p>
+                    <div class="product-cart-btn" onclick="add('PumaJeans',5.5)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/jeanshorts.jpeg" alt="#">
+                    </div>
+                    <h3>Shorts Men</h3>
+                    <p>Price : $5 Only</p>
+                    <div class="product-cart-btn" onclick="add('ShortsMen',5)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/oversize tshirts.jpeg" alt="#">
+                    </div>
+                    <h3>OverSize T-Shirt</h3>
+                    <p>Price : $4 Only</p>
+                    <div class="product-cart-btn" onclick="add('OverSizeT-Shirt',4)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/sleeves.jpeg" alt="#">
+                    </div>
+                    <h3>Puma Sleeves Men</h3>
+                    <p>Price : $6.5 Only</p>
+                    <div class="product-cart-btn" onclick="add('PumaSleevesMen',6.5)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/tracks.jpeg" alt="#">
+                    </div>
+                    <h3>Tracks Fight </h3>
+                    <p>Price : $6 Only</p>
+                    <div class="product-cart-btn" onclick="add('TracksFight',6)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/tracksjeans.jpeg" alt="#">
+                    </div>
+                    <h3>Jean Tracks</h3>
+                    <p>Price : $5 Only</p>
+                    <div class="product-cart-btn" onclick="add('JeanTracks',5)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/shirt.jpeg" alt="#">
+                    </div>
+                    <h3>Puma Formal Shirt</h3>
+                    <p>Price : $4 Only</p>
+                    <div class="product-cart-btn" onclick="add('PumaFormalShirt',4)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/tshirt.jpeg" alt="#">
+                    </div>
+                    <h3>Puma T-Shirt</h3>
+                    <p>Price : $3.4 Only</p>
+                    <div class="product-cart-btn" onclick="add('PumaT-Shirt',3.4)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/tracktwo.jpeg" alt="#">
+                    </div>
+                    <h3>Puma Tracks Combo</h3>
+                    <p>Price : $7 Only</p>
+                    <div class="product-cart-btn" onclick="add('PumaTracksCombo',7)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="images/shorts.jpeg" alt="#">
+                    </div>
+                    <h3>Puma Shorts</h3>
+                    <p>Price : $4.5 Only</p>
+                    <div class="product-cart-btn" onclick="add('PumaShorts',4.5)">
+                        <span>Add-To-Cart</span>
+                        <ion-icon name="add-circle" id="cart-add"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart" >
+            <h2>Your Wish List Are Below :</h2>
+            <ul id="cart-item">
+    
+            </ul>
+        </div>
+        <div class="total">
+            <p id="cart-total">Total Cost : $ 0</p>
+        </div>
+    </main>
+
+    <footer>
+    <div class="foot-item">
+        <div class="contact-info">
+            <p>Follow Us On : </p>
+            <div class="image-icon">
+                <a href="https://www.linkedin.com/">
+                    <img src="" alt="#">
+                    <h4>LinkedIn</h4>
+                </a>
+            </div>
+            <div class="image-icon">
+                <a href="https://www.instagram.com/">
+                    <img src="images/—Pngtree—white instagram icon png instagram_3562066.png" alt="#">
+                    <h4>Instagram</h4>
+                </a>
+            </div>
+            <div class="image-icon">
+                <a href="https://www.youtube.com/">
+                    <img src="" alt="#">
+                    <h4>Youtube</h4>
+                </a>
+            </div>
+        </div>
+        <div class="contact-us">
+            <h2>Contact Us</h2>
+            <form accesskey="New" action="index.html">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="text">Message :</label>
+                <input type="textarea" id="text" name="text" required><br>
+                <button>submit</button>
+
+
+            </form>
+        </div>
+    </div>
+        <h3> @Copyright All Rights Reserved 2024.</h3>
+
+    </footer>
+<script src="index.js"></script>    
+</body>
+</html>
